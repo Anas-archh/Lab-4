@@ -58,7 +58,6 @@ int main() {
     cin >> minutes;
     cout << "Enter the number of seconds: ";
     cin >> seconds;
-    // Example usage:
     convert24(hours * 3600 + minutes * 60 + seconds);
     convert24(minutes + hours * 60, seconds);
     return 0;
